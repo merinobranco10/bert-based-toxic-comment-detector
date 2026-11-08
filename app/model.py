@@ -9,7 +9,7 @@ from transformers import (
 
 MODEL_ID = os.getenv(
     "HF_MODEL_ID",
-    "TU_USUARIO/vigia-bert-toxicidad"
+    "bmerino10/vigia-bert-toxicidad"
 )
 
 UMBRAL = 0.5
